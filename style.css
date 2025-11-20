@@ -11,5 +11,30 @@ h1 {
     font-size: 75px;
 }
 
+.SideLeft {
+    width: 15%;
+    height: 500px;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.SideRight {
+    width: 15%;
+    height: 500px;
+    background-color: black;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
 
-
+.container[{
+display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    align-items: center;      
+    gap: 10px;   
+}]
