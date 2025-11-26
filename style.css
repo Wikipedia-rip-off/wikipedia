@@ -1,46 +1,65 @@
-*{
-
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: rgb(95, 94, 94);
-}
-h1 {
-    color: white;
-    border: 20px solid black;
-  
-    border-radius: 200px;
-    text-align: center;
-    font-size: 75px;
 }
 
 .SideLeft {
-    padding-bottom: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 15%;
-    height: 500px;
+    height: 100vh;
     background-color: black;
-   
-    margin-top: 20px;
-    margin-left: 10px;
-    border: 2px solid black;
-    border-radius: 25px;
 }
+
 .SideRight {
+    position: fixed;
+    right: 0;
+    top: 0;
     width: 15%;
-    height: 500px;
+    height: 100vh;
     background-color: black;
-   
-    margin-top: 20px;
-    margin-right: 10px;
-    border: 2px solid black;
-    border-radius: 25px;
 }
 
-.Container{
+.title {
+    color: white;
+    border: 10px solid black;
+    border-radius: 200px;
+    text-align: center;
+    font-size: 75px;
+    width: 500px;
+    padding: 10px 40px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
+.content {
+    padding-top: 180px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
-    display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
-    align-items: center;
-    gap: 10px;
-  
-    justify-items: center;
+.content h2 {
+    color: white;
+    font-size: 40px;
+    background-color: transparent;
+}
+
+.SideRight:hover{
+   scale: 1.1;
+    transition: 0.5s;
+}
+.SideLeft:hover{
+   scale: 1.1;
+    transition: 0.5s;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
 }
