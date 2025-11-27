@@ -12,6 +12,8 @@
     width: 15%;
     height: 100vh;
     background-color: black;
+     opacity: 0;
+     transition: 0.5s;
 }
 
 .SideRight {
@@ -21,6 +23,8 @@
     width: 15%;
     height: 100vh;
     background-color: black;
+    opacity: 0;
+    transition: 0.5s;
 }
 
 .title {
@@ -52,14 +56,20 @@
 
 .SideRight:hover{
    scale: 1.1;
-    transition: 0.5s;
+    
+    opacity: 1;
 }
 .SideLeft:hover{
-   scale: 1.1;
-    transition: 0.5s;
+   width: 2000px;
+    
+    opacity: 1;
+}
+img {
+    width: 100%;
+    height: 100%;
 }
 
 h3{
     color: white;
     font-size: 30px;
-}
+} 
