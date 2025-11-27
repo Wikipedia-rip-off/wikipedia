@@ -13,7 +13,7 @@
     height: 100vh;
     background-color: black;
      opacity: 0;
-     transition: 0.5s;
+     transition: 20s;
 }
 
 .SideRight {
