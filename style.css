@@ -12,27 +12,8 @@
     width: 15%;
     height: 100vh;
     background-color: black;
-<<<<<<< Updated upstream
      opacity: 0;
      transition: 0.5s;
-=======
-    float: left;
-    margin-top: 20px;
-    margin-left: 10px;
-    border: 2px solid black;
-    border-radius: 25px;
-}
-.SideRight {
-    width: 15%;
-    height: 500px;
-    background-color: black;
-    float: right;
-    margin-top: 20px;
-    margin-right: 10px;
-    border: 2px solid black;
-    border-radius: 25px;
-    display:flex ;
->>>>>>> Stashed changes
 }
 
 .SideRight {
