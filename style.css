@@ -71,5 +71,15 @@ img {
 
 h3{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
 } 
+.khabe{
+    width: 3%;;
+    height: 3%;
+}
+.khabe:hover{
+    width: 100%;
+    height: 20000%;
+    transition: 5s;
+}
